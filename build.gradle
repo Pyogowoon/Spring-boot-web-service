@@ -4,7 +4,7 @@ plugins { // (1)
     id 'java'
 }
 
-group 'org.example'
+group 'com.pyo.web'
 version '1.0.4-SNAPSHOT-'+new Date().format("yyyyMMddHHmmss")
 sourceCompatibility = 1.8
 
@@ -13,7 +13,7 @@ repositories {
     jcenter()
 }
 
-// for Junit 5
+// for Junit 501401
 test { // (2)
     useJUnitPlatform()
 }
