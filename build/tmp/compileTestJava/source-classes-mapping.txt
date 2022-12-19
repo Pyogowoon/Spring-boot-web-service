@@ -2,3 +2,5 @@ com/pyo/web/springboot/HelloResponseDtoTest.java
  com.pyo.web.springboot.HelloResponseDtoTest
 com/pyo/web/springboot/HelloControllerTest.java
  com.pyo.web.springboot.HelloControllerTest
+com/pyo/web/springboot/domain/posts/PostsRepositoryTest.java
+ com.pyo.web.springboot.domain.posts.PostsRepositoryTest

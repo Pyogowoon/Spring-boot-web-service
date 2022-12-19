@@ -4,3 +4,8 @@ com/pyo/web/springboot/web/dto/HelloResponseDto.java
  com.pyo.web.springboot.web.dto.HelloResponseDto
 com/pyo/web/springboot/web/HelloController.java
  com.pyo.web.springboot.web.HelloController
+com/pyo/web/springboot/domain/posts/Posts.java
+ com.pyo.web.springboot.domain.posts.Posts
+ com.pyo.web.springboot.domain.posts.Posts$PostsBuilder
+com/pyo/web/springboot/domain/posts/PostsRepository.java
+ com.pyo.web.springboot.domain.posts.PostsRepository
