@@ -6,3 +6,5 @@ com/pyo/web/springboot/domain/posts/PostsRepositoryTest.java
  com.pyo.web.springboot.domain.posts.PostsRepositoryTest
 com/pyo/web/springboot/domain/PostsApiControllerTest.java
  com.pyo.web.springboot.domain.PostsApiControllerTest
+com/pyo/web/springboot/domain/IndexControllerTest.java
+ com.pyo.web.springboot.domain.IndexControllerTest
