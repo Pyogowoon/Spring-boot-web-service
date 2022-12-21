@@ -1,7 +1,7 @@
 com/pyo/web/springboot/web/HelloController.java
  com.pyo.web.springboot.web.HelloController
-com/pyo/web/springboot/web/IndexContorller.java
- com.pyo.web.springboot.web.IndexContorller
+com/pyo/web/springboot/web/dto/HelloResponseDto.java
+ com.pyo.web.springboot.web.dto.HelloResponseDto
 com/pyo/web/springboot/web/dto/PostsResponseDto.java
  com.pyo.web.springboot.web.dto.PostsResponseDto
 com/pyo/web/springboot/domain/posts/Posts.java
@@ -18,8 +18,8 @@ com/pyo/web/springboot/domain/user/UserRepository.java
  com.pyo.web.springboot.domain.user.UserRepository
 com/pyo/web/springboot/web/dto/PostsListResponseDto.java
  com.pyo.web.springboot.web.dto.PostsListResponseDto
-com/pyo/web/springboot/config/auth/CustomOAuth2UserService.java
- com.pyo.web.springboot.config.auth.CustomOAuth2UserService
+com/pyo/web/springboot/config/WebConfig.java
+ com.pyo.web.springboot.config.WebConfig
 com/pyo/web/springboot/web/PostsApiController.java
  com.pyo.web.springboot.web.PostsApiController
 com/pyo/web/springboot/Application.java
@@ -29,9 +29,8 @@ com/pyo/web/springboot/config/auth/SecurityConfig.java
 com/pyo/web/springboot/domain/user/User.java
  com.pyo.web.springboot.domain.user.User
  com.pyo.web.springboot.domain.user.User$UserBuilder
-com/pyo/web/springboot/config/auth/dto/OAuthAttributes.java
- com.pyo.web.springboot.config.auth.dto.OAuthAttributes
- com.pyo.web.springboot.config.auth.dto.OAuthAttributes$OAuthAttributesBuilder
+com/pyo/web/springboot/config/auth/LoginUser.java
+ com.pyo.web.springboot.config.auth.LoginUser
 com/pyo/web/springboot/domain/posts/PostsRepository.java
  com.pyo.web.springboot.domain.posts.PostsRepository
 com/pyo/web/springboot/domain/user/Role.java
@@ -41,5 +40,12 @@ com/pyo/web/springboot/domain/BaseTimeEntity.java
 com/pyo/web/springboot/web/dto/PostsUpdateRequestDto.java
  com.pyo.web.springboot.web.dto.PostsUpdateRequestDto
  com.pyo.web.springboot.web.dto.PostsUpdateRequestDto$PostsUpdateRequestDtoBuilder
-com/pyo/web/springboot/web/dto/HelloResponseDto.java
- com.pyo.web.springboot.web.dto.HelloResponseDto
+com/pyo/web/springboot/config/auth/LoginUserArgumentResolver.java
+ com.pyo.web.springboot.config.auth.LoginUserArgumentResolver
+com/pyo/web/springboot/web/IndexContorller.java
+ com.pyo.web.springboot.web.IndexContorller
+com/pyo/web/springboot/config/auth/CustomOAuth2UserService.java
+ com.pyo.web.springboot.config.auth.CustomOAuth2UserService
+com/pyo/web/springboot/config/auth/dto/OAuthAttributes.java
+ com.pyo.web.springboot.config.auth.dto.OAuthAttributes
+ com.pyo.web.springboot.config.auth.dto.OAuthAttributes$OAuthAttributesBuilder

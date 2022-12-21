@@ -1,5 +1,6 @@
 package com.pyo.web.springboot.web;
 
+import com.pyo.web.springboot.config.auth.LoginUser;
 import com.pyo.web.springboot.config.auth.dto.SessionUser;
 import com.pyo.web.springboot.service.posts.PostsService;
 import com.pyo.web.springboot.web.dto.PostsResponseDto;
@@ -20,11 +21,12 @@ public class IndexContorller {
     private final HttpSession httpSession;
 
     @GetMapping("/")
-    public String index(Model model) { //model 로 서버 템플릿 엔진에서 사용할수있는 객체를 저장
+    public String index(Model model, @LoginUser SessionUser user) { //model 로 서버 템플릿 엔진에서 사용할수있는 객체를 저장
         // 여기서는 postService.findAllDesc() 로 가져온 결과를 posts로 index.mustache에 전달함
         model.addAttribute("posts", postsService.findAllDesc());
 
-        SessionUser user = (SessionUser)httpSession.getAttribute("user");
+//        SessionUser user = (SessionUser)httpSession.getAttribute("user");
+        // @LoginUser 어노테이션을 추가하였기 떄문에 개선되어 삭제처리함
         if(user != null){
             model.addAttribute("userName" , user.getName());
         }
