@@ -22,8 +22,9 @@ com/pyo/web/springboot/config/WebConfig.java
  com.pyo.web.springboot.config.WebConfig
 com/pyo/web/springboot/web/PostsApiController.java
  com.pyo.web.springboot.web.PostsApiController
-com/pyo/web/springboot/Application.java
- com.pyo.web.springboot.Application
+com/pyo/web/springboot/config/auth/dto/OAuthAttributes.java
+ com.pyo.web.springboot.config.auth.dto.OAuthAttributes
+ com.pyo.web.springboot.config.auth.dto.OAuthAttributes$OAuthAttributesBuilder
 com/pyo/web/springboot/config/auth/SecurityConfig.java
  com.pyo.web.springboot.config.auth.SecurityConfig
 com/pyo/web/springboot/domain/user/User.java
@@ -46,6 +47,7 @@ com/pyo/web/springboot/web/IndexContorller.java
  com.pyo.web.springboot.web.IndexContorller
 com/pyo/web/springboot/config/auth/CustomOAuth2UserService.java
  com.pyo.web.springboot.config.auth.CustomOAuth2UserService
-com/pyo/web/springboot/config/auth/dto/OAuthAttributes.java
- com.pyo.web.springboot.config.auth.dto.OAuthAttributes
- com.pyo.web.springboot.config.auth.dto.OAuthAttributes$OAuthAttributesBuilder
+com/pyo/web/springboot/Application.java
+ com.pyo.web.springboot.Application
+com/pyo/web/springboot/config/JpaConfig.java
+ com.pyo.web.springboot.config.JpaConfig
