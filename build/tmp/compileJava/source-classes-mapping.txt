@@ -47,7 +47,7 @@ com/pyo/web/springboot/web/IndexContorller.java
  com.pyo.web.springboot.web.IndexContorller
 com/pyo/web/springboot/config/auth/CustomOAuth2UserService.java
  com.pyo.web.springboot.config.auth.CustomOAuth2UserService
-com/pyo/web/springboot/Application.java
- com.pyo.web.springboot.Application
 com/pyo/web/springboot/config/JpaConfig.java
  com.pyo.web.springboot.config.JpaConfig
+com/pyo/web/springboot/Application.java
+ com.pyo.web.springboot.Application
